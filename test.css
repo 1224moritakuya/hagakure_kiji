@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: FEFBF6;
+  background-color: #fefbf6;
   font-family: "zen Maru Gothic", "Yu Gothic", "Hiragino kaku Gothic",
     sans-serif;
   color: #625651;
@@ -149,6 +149,7 @@ h2 {
 }
 .page > a {
   padding: 10px;
+  color: #625651;
 }
 .page > a:hover {
   background-color: #625651;
