@@ -148,13 +148,14 @@ h2 {
   align-items: baseline;
 }
 .page > a {
-  padding: 10px;
+  padding: 5px 15px;
   color: #625651;
 }
 .page > a:hover {
   background-color: #625651;
   color: #fff;
-  transition: ease-in-out 0.3s;
+  border-radius: 20px;
+  transition: ease-in-out 0.1s;
 }
 .page-prev,
 .page-next {
@@ -171,7 +172,12 @@ h2 {
 .page-next {
   margin-left: 20px;
 }
-
+.current {
+  background-color: #625651;
+  color: #fff !important;
+  border-radius: 20px;
+  text-decoration: none;
+}
 /* タブレット */
 @media screen and (max-width: 768px) {
   .container {
