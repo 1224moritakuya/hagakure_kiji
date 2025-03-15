@@ -155,7 +155,8 @@ h2 {
   background-color: #625651;
   color: #fff;
   border-radius: 20px;
-  transition: ease-in-out 0.1s;
+  /* transition: ease-in-out 0.1s; */
+  transition: 0.1s;
 }
 .page-prev,
 .page-next {
